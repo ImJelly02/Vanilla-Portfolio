@@ -666,6 +666,7 @@
 			cursor: default;
 			list-style: none;
 			padding-left: 0;
+			align-self: center;
 		}
 
 			ul.actions li {
@@ -948,7 +949,6 @@
 		text-decoration: none;
 		text-transform: uppercase;
 		white-space: nowrap;
-		justify-content: center;
 	}
 
 		input[type="submit"]:hover,
