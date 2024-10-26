@@ -338,15 +338,6 @@
 		position: relative;
 	}
 
-		h1.major:after{
-			content: '';
-			position:absolute;
-			left: 0;
-			width: 5rem;
-			height: 0.2rem;
-			background-color: #3C3D37;
-		}
-
 		h2.major:after, h3.major:after {
 			content: '';
 			position: absolute;
@@ -363,7 +354,7 @@
 	}
 
 		h1.major {
-			margin: 0 0 3rem 0;
+			margin: 0 0 1rem 0;
 		}
 
 			h1.major:after {
@@ -592,8 +583,8 @@
 		max-width: 600px; 
 		height: auto; 
 		overflow: hidden;
-		margin-top: -450px;
 		background-color: none;
+		padding: 0 0 2rem 2rem;
 	}
 	.home-img {
 		display: flex;
@@ -666,6 +657,7 @@
 			cursor: default;
 			list-style: none;
 			padding-left: 0;
+			padding-bottom: 1rem;
 			align-self: center;
 		}
 
